@@ -14,7 +14,7 @@ namespace DesafioFundamentos.Models
 
         public void AdicionarVeiculo()
         {
-            // Implementado!
+            // 
 
             Console.WriteLine("Digite a placa do veículo para estacionar:");
             string placa = Console.ReadLine();
@@ -55,8 +55,8 @@ namespace DesafioFundamentos.Models
             if (veiculos.Any())
             {
                 Console.WriteLine("Os veículos estacionados são:");
-                // TODO: Realizar um laço de repetição, exibindo os veículos estacionados
-                foreach (var veiculo in veiculos)
+                // Implementado!
+                foreach (string veiculo in veiculos)
                 {
                     Console.WriteLine($"{veiculo}");
                 }
